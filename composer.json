@@ -1,0 +1,31 @@
+{
+    "name": "slavkovrn/yii2-ion-rangeslider",
+    "description": "Yii2 Ion Range Slider widget uses Ion.RangeSlider plugin version 2.3.0 for jQuery with pjax support",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "Ion Range Slider widget", "Ion Range Slider plugin for jQuery", "with pjax support"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://yii2.kadastrcard.ru"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/SlavKoVrn/yii2-ion-rangeslider"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "slavkovrn\\ionrangeslider\\": "src/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
